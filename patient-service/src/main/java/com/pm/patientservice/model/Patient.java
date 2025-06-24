@@ -27,7 +27,6 @@ public class Patient {
     @NotNull
     private LocalDate dateOfBirth;
 
-    @NotNull
     private LocalDate registeredDate;
 
     public UUID getId() {

@@ -1,0 +1,14 @@
+### Create a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+    "name": "Nate Walker",
+    "email": "nate.walker@example.com",
+    "address": "789 Willow St, Springfield",
+    "dateOfBirth": "1987-10-17",
+    "registeredDate": "2025-10-10"
+}
+
+
+###
